@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(void){
+	int no = 100, count = 20;
+	printf("%d", no>count);
+	printf("%d", no > count*4);
+	printf("%d", (no != 100)||(count >= 20));
+	printf("%d", (no <= 100)&&(count > 20));
+	
+}
