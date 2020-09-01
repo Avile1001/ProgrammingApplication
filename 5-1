@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main (void){
+	int number =0;
+	int no = 0;
+	char ch;
+	
+	printf("원하는 숫자와 문자 2개를 입력하세요\n");
+	scanf("%d %c", &number, &ch);
+	
+	if ((number<10)&&(1<number))
+	{
+		printf("1. number가 1보다 크거나 10보다 작다\n");
+		}
+			
+	if ((1<no)&&(no<10)||(no==5))
+	{
+		printf("2. ch가 ‘q’도 아니고 ‘z’도 아니다.\n");
+		
+	}
+
+		return 0;
+	}
